@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.prog6112assignment1.MainLogicTest" time="0.129" tests="17" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\dylan\OneDrive\Documents\NetBeansProjects\PROG6112Assignment1(AeroLink Airport)\target\test-classes;C:\Users\dylan\OneDrive\Documents\NetBeansProjects\PROG6112Assignment1(AeroLink Airport)\target\classes;C:\Users\dylan\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\dylan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="user.country" value="ZA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin"/>
+    <property name="sun.java.command" value="C:\Users\dylan\AppData\Local\Temp\surefire8199768210987884196\surefirebooter-20261005215246626_3.jar C:\Users\dylan\AppData\Local\Temp\surefire8199768210987884196 2026-10-05T21-52-46_480-jvmRun1 surefire-20261005215246626_1tmp surefire_0-20261005215246626_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\dylan\OneDrive\Documents\NetBeansProjects\PROG6112Assignment1(AeroLink Airport)\target\test-classes;C:\Users\dylan\OneDrive\Documents\NetBeansProjects\PROG6112Assignment1(AeroLink Airport)\target\classes;C:\Users\dylan\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\dylan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\dylan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Apache NetBeans\jdk"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\dylan\OneDrive\Documents\NetBeansProjects\PROG6112Assignment1(AeroLink Airport)"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\dylan\AppData\Local\Temp\surefire8199768210987884196\surefirebooter-20261005215246626_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS"/>
+    <property name="user.name" value="dylan"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25.0.1+8"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\Apache NetBeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\dylan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\dylan\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="C:\Users\dylan\OneDrive\Documents\NetBeansProjects\PROG6112Assignment1(AeroLink Airport)"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\GitHub CLI\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\dylan\AppData\Local\Microsoft\WindowsApps;C:\Users\dylan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dylan\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testDisplayAvailableSlots" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.023">
+    <system-out><![CDATA[Available Gate Slots:
+ - Gate 1 at 06:00
+ - Gate 1 at 08:00
+ - Gate 1 at 10:00
+ - Gate 1 at 12:00
+ - Gate 1 at 14:00
+ - Gate 1 at 16:00
+ - Gate 1 at 18:00
+ - Gate 1 at 20:00
+ - Gate 2 at 06:00
+ - Gate 2 at 08:00
+ - Gate 2 at 10:00
+ - Gate 2 at 12:00
+ - Gate 2 at 14:00
+ - Gate 2 at 16:00
+ - Gate 2 at 18:00
+ - Gate 2 at 20:00
+ - Gate 3 at 06:00
+ - Gate 3 at 08:00
+ - Gate 3 at 10:00
+ - Gate 3 at 12:00
+ - Gate 3 at 14:00
+ - Gate 3 at 16:00
+ - Gate 3 at 18:00
+ - Gate 3 at 20:00
+ - Gate 4 at 06:00
+ - Gate 4 at 08:00
+ - Gate 4 at 10:00
+ - Gate 4 at 12:00
+ - Gate 4 at 14:00
+ - Gate 4 at 16:00
+ - Gate 4 at 18:00
+ - Gate 4 at 20:00
+ - Gate 5 at 06:00
+ - Gate 5 at 08:00
+ - Gate 5 at 10:00
+ - Gate 5 at 12:00
+ - Gate 5 at 14:00
+ - Gate 5 at 16:00
+ - Gate 5 at 18:00
+ - Gate 5 at 20:00
+]]></system-out>
+  </testcase>
+  <testcase name="testSortFlightsById" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.0"/>
+  <testcase name="testGenerateFullOperationalReport" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.002">
+    <system-out><![CDATA[--------------------------------------------------
+            Operational Report              
+--------------------------------------------------
+--- Scheduled Flights ---
+No scheduled flights found.
+--- Delayed Flights ---
+No delayed flights found.
+
+--- Stats ---
+Busiest Gate: None (no gates assigned yet)
+Peak Time Slot: None (no departures scheduled yet)
+Highest Passenger Load Flight: None (no flights registered)
+Average Passenger Load Percentage: 0,00%
+--------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testDisplayHighestPassengerLoadFlight" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.005">
+    <system-out><![CDATA[Highest Passenger Load Flight: None (no flights registered)
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateFlightStatus" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.0"/>
+  <testcase name="testDisplayOccupiedSlots" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.003">
+    <system-out><![CDATA[Occupied Gate Slots:
+]]></system-out>
+  </testcase>
+  <testcase name="testDisplayGateScheduleGrid" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.023">
+    <system-out><![CDATA[Gate/Time 06:00       08:00       10:00       12:00       14:00       16:00       18:00       20:00       
+--------------------------------------------------------------------------------------------
+Gate 1    [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     
+Gate 2    [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     
+Gate 3    [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     
+Gate 4    [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     
+Gate 5    [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     [Empty]     
+]]></system-out>
+  </testcase>
+  <testcase name="testGetFlights" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.0"/>
+  <testcase name="testRemoveFlight" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.0"/>
+  <testcase name="testAddFlight" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.0"/>
+  <testcase name="testSortFlightsByDepartureTime" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.0"/>
+  <testcase name="testSearchFlight" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.0"/>
+  <testcase name="testDisplayAllFlights" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.001">
+    <system-out><![CDATA[No flights registered.
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateFlightDetails" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.0"/>
+  <testcase name="testAssignFlightToGate" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.0"/>
+  <testcase name="testReleaseGateByFlightId" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.0"/>
+  <testcase name="testReleaseGateByLocation" classname="com.mycompany.prog6112assignment1.MainLogicTest" time="0.0"/>
+</testsuite>

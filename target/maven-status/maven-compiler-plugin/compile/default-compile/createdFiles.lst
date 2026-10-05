@@ -1,0 +1,10 @@
+com\mycompany\prog6112assignment1\Flight.class
+com\mycompany\prog6112assignment1\FlightCategory.class
+com\mycompany\prog6112assignment1\AirportApplication.class
+com\mycompany\prog6112assignment1\MainLogic.class
+com\mycompany\prog6112assignment1\DuplicateFlightIdException.class
+com\mycompany\prog6112assignment1\FlightStatus.class
+com\mycompany\prog6112assignment1\InternationalFlight.class
+com\mycompany\prog6112assignment1\MissingFlightException.class
+com\mycompany\prog6112assignment1\GateSchedulingException.class
+com\mycompany\prog6112assignment1\MainException.class
