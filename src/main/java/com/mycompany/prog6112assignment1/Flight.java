@@ -16,10 +16,10 @@ public class Flight {
         setFlightId(flightId);
         setAirlineName(airlineName);
         setFlightDestination(flightDestination);
+        this.category = category; // set category before capacity/passengers so validation knows if it's cargo
+        this.status = status;
         setPassengerCapacity(passengerCapacity);
         setNumOfBookedPassangers(numOfBookedPassangers);
-        this.category = category;
-        this.status = status;
     }
 
     public String getFlightId() { // setters & getters + exception handeling 
@@ -60,8 +60,11 @@ public class Flight {
     }
 
     public void setPassengerCapacity(int passengerCapacity) {
-        if (passengerCapacity <= 0) {
+        if (this.category != FlightCategory.CARGO && passengerCapacity <= 0) {
             throw new IllegalArgumentException("Capacity must be greater than zero.");
+        }
+        if (passengerCapacity < 0) {
+            throw new IllegalArgumentException("Capacity cannot be negative.");
         }
         this.passengerCapacity = passengerCapacity;
     }
@@ -103,6 +106,9 @@ public class Flight {
     }
 
     public double calculatePassengerLoadPercentage() { // calculations of passanger load 
+        if (passengerCapacity == 0) {
+            return 0.0; // prevents division by zero (NaN) for cargo flights
+        }
         return ((double) numOfBookedPassangers / passengerCapacity) * 100.0;
     }
 
